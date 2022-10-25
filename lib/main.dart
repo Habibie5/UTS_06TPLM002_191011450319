@@ -42,7 +42,7 @@ class _UTSState extends State<UTS> {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Padding(
-                    padding: EdgeInsets.symmetric(vertical: 15,),
+                    padding: EdgeInsets.symmetric(vertical: 25,),
                 child: Text('Shoes',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
@@ -51,7 +51,10 @@ class _UTSState extends State<UTS> {
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 18,),
                   child: CircleAvatar(
-                    child: Icon(Icons.person),
+                    backgroundColor: Colors.blue,
+                    radius: 30,
+                    child: Icon(Icons.person_outline_outlined,
+                    size: 40,),
                   ),
                 )
               ],
